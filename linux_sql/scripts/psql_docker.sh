@@ -14,7 +14,7 @@ fi
 
 #analyze docker status and start
 if [ ! "$(sudo systemctl status docker )" ]; then
-  systemctl start docker
+  sudo systemctl start docker
 fi
 
 #command selection
