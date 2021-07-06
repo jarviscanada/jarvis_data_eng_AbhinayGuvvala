@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 The Linus Cluster Monitoring project was designed to collect and understand the resource 
 usage of each node in a cluster of 10 linux nodes that are connected locally via swith 
 using IpV4 addresses. Jarvis LCA (Linux Cluster Adminstration) team uses this project to 
@@ -9,54 +9,54 @@ and PostgreSQL was used to store and process the collected data. Docker was used
 PostgreSQL server so that all the nodes can send the data using https protocol. Git version 
 control and Gitflow workflow was followed in the implementation of the project. This project 
 uses IntelliJ IDE and vim editor.
-#Quick Start
-*Start a psql instance using psql_docker.sh
+# Quick Start
+* Start a psql instance using psql_docker.sh
 
 ````bash
 ./scripts/psql_docker.sh create|start|stop [USER_NAME][PASSWORD]
 ````
-*Create tables using ddl.sql
+* Create tables using ddl.sql
 
 ````bash
 psql -h psql_host -U db_username -d host_agent -f sql/ddl.sql
 ````
-*Insert hardware specs data into the DB using host_info.sh
+* Insert hardware specs data into the DB using host_info.sh
 
 ````bash
 ./scripts/host_info.sh psql_host psql_port db_name db_username db_password
 ````
-*Insert hardware usage data into the DB using host_usage.sh
+* Insert hardware usage data into the DB using host_usage.sh
 
 ````bash
 ./scripts/host_usage.sh psql_host psql_port db_name db_username db_password
 ````
-*Crontab setup
+* Crontab setup
 
 ````bash
-#Edit crontab job file
+# Edit crontab job file
 crontab -e 
-#insert the following code to crontab
+# insert the following code to crontab
 * * * * * bash /home/centos/dev/jarvis_data_eng_abhinay/linux_sql/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
 ````
-#Implementation
+# Implementation
 First psql_docker.sh bash script used to create, start and stop a docker instance was developed.
 Next ddl.sql is implemented to initialize host_agent database which contains host_info and host_usage tables along with script to SQL queries(queries.sql) to some business questions.
 After that bash scripts to collect the system information and resource usage from the node host_info.sh and host_usage.sh were implemented.
 Finally, crontab job file was edited to automate the execution of host_usage application every minute.
 
-##Architecture
+## Architecture
 ![Architecture image](/assets/Architecture.png)
 
-##Scripts
+## Scripts
 * psql_docker.sh - To create/start/stop a PostgreSQL container
 ````bash
-#To create a psql instance
+# To create a psql instance
 ./scripts/psql_docker.sh create USERNAME PASSWORD
 
-#To start the psql instance
+# To start the psql instance
 ./scripts/psql_docker.sh start
 
-#To stop the psql instance
+# To stop the psql instance
 ./scripts/psql_docker.sh stop 
 
 ````
@@ -71,9 +71,9 @@ Finally, crontab job file was edited to automate the execution of host_usage app
 ````
 * crontab - How to automate the host_usage.sh script to run every minute
 ````bash
-#Edit crontab job file
+# Edit crontab job file
 crontab -e 
-#insert the following code to crontab
+# insert the following code to crontab
 * * * * * bash /home/centos/dev/jarvis_data_eng_abhinay/linux_sql/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
 ````
 * queries.sql - To answer
