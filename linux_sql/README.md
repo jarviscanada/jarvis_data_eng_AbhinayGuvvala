@@ -82,7 +82,7 @@ crontab -e
     1. Detect unhealthy nodes using number of datapoints for every 5 min.
   ````bash
   psql -h psql_host -U db_username -d host_agent -f sql/queries.sql
-  ````## Database Modeling
+  ````
 ## Database Modeling
 - Schema of `host_info` table :
   
