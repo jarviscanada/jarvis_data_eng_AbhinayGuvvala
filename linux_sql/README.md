@@ -45,7 +45,7 @@ After that bash scripts to collect the system information and resource usage fro
 Finally, crontab job file was edited to automate the execution of host_usage application every minute.
 
 ## Architecture
-![Architecture image](/assets/Architecture.png)
+![Architecture image](./assets/Architecture.png)
 
 ## Scripts
 * psql_docker.sh - To create/start/stop a PostgreSQL container
