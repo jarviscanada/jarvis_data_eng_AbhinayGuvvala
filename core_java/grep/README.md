@@ -9,7 +9,7 @@ To use the application, follow these steps:
 * Run the container from the downloaded image with three required parameters:  
 ```$ docker run guvvala39/grep regex rootpath outFile```
 
-#Implementation
+# Implementation
 ## Pseudocode
 ``` matchedLines = []
     for file in listFiles(rootDir)
