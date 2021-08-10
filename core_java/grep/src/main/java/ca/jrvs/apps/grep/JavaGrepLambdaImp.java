@@ -44,11 +44,7 @@ public class JavaGrepLambdaImp extends JavaGrepImp{
   public void writeToFile(List<String> lines) throws IOException {
     FileWriter writer = new FileWriter(getOutFile());
     lines.stream().forEach(line -> {
-      try {
         writer.write(line + System.lineSeparator());
-      } catch (IOException e) {
-        logger.error("Error while writing to the file", e);
-      }
     });
     writer.close();
   }
