@@ -8,3 +8,4 @@ target/
 *.iml
 .eclipse
 test/
+.DS_Store
