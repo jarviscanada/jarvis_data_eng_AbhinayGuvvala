@@ -32,6 +32,7 @@ public class TwitterCLIApp {
           break;
         case "show":
           printTweet(controller.showTweet(args));
+          break;
         case "delete":
           controller.deleteTweet(args).forEach(this::printTweet);
           break;

@@ -57,7 +57,7 @@ public class TwitterControllerIntTest {
   @Test
   public void showTweet() {
     String fields = "created_at,text,coordinates,entities";
-    String id = "1398786151872438273";
+    String id = "1425120886584184835";
     String[] args = {"show", id, fields};
     Tweet tweet = controller.showTweet(args);
     System.out.println(tweet.getText());

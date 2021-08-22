@@ -6,8 +6,10 @@ import ca.jrvs.apps.twitter.model.Tweet;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 
+@org.springframework.stereotype.Service
 public class TwitterService implements Service{
 
   private static final int TWEET_CHAR_LIMIT = 140;
@@ -69,9 +71,13 @@ public class TwitterService implements Service{
 
   @Override
   public List<Tweet> deleteTweets(String[] ids) {
-    return null;
+    for (String id : ids) {
+      validateId(id);
+    }
+    List<Tweet> tweets = Arrays.stream(ids).map(id -> (Tweet) dao.deleteById(id)).collect(
+        Collectors.toList());
+    return tweets;
   }
-
   private void validatePostTweet(Tweet tweet){
     if(tweet.getText().length() > TWEET_CHAR_LIMIT){
       throw new IllegalArgumentException("Tweet exceeds the 140 characters limit");
