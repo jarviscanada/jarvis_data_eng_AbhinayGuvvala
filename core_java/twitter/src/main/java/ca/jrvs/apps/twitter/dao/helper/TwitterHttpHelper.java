@@ -11,8 +11,9 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.springframework.http.HttpMethod;
-import sun.net.www.http.HttpClient;
+import org.springframework.stereotype.Component;
 
+@Component
 public class TwitterHttpHelper implements HttpHelper{
   private OAuthConsumer consumer;
   private DefaultHttpClient httpClient;
