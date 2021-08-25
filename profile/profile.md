@@ -23,8 +23,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AbhinayGuv
   - JDBC App: Implemented CRUD and DML operations and tested on generated SQL sales data. Built using the Data Access Object (DAO) pattern. Made in Java with the Maven project management tool.
   - Grep App: Deployed a Java application using docker that simulates the Unix grep implementation that searches all files recursively from a given directory argument and outputs a file containing all the lines that match the given regex pattern argument. The application utilizes Java 8 streams for memory efficiency and is managed using Maven.
 
+
 ## Highlighted Projects
-**Auto-Guard** : Developed a SQL database application that monitors the temperature, humidity, and oxygen levels inside the car and identifies the anomaly, and preset the sensor from malfunctioning whenever necessary.
+**Auto-Guard**: Developed a SQL database application that monitors the temperature, humidity, and oxygen levels inside the car and identifies the anomaly, and preset the sensor from malfunctioning whenever necessary.
 
 
 ## Professional Experiences

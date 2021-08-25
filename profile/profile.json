@@ -1,0 +1,85 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "Dean's Honour Roll"
+      ],
+      "degree": "Post Graduate Certificate",
+      "department": "Software and Information Systems Testing",
+      "duration": "2019-2020",
+      "school_name": "Fanshawe College"
+    },
+    {
+      "awards_achievements": null,
+      "degree": "Bachelor of Technology",
+      "department": "Electronics \u0026 Communication Engineering",
+      "duration": "2015-2019",
+      "school_name": "Jawaharlal Nehru Technological University, Kakinada"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AbhinayGuvvala",
+  "highlighted_projects": [
+    {
+      "description": "Developed a SQL database application that monitors the temperature, humidity, and oxygen levels inside the car and identifies the anomaly, and preset the sensor from malfunctioning whenever necessary.",
+      "git_url": null,
+      "name": "Auto-Guard"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Developed a Linux cluster monitoring tool that enables users to monitor and store specifications of nodes and resource usage statistics constantly. Built using Linux Bash and Deployed the application using Docker, which is used to create a PostgreSQL instance to manage both static and dynamic data collection.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": [
+        "Twitter App: Developed a command-line interface that allows users to send, get, and delete tweets from Twitter with a developer account. It uses MVC(Model-View-Controller) design pattern to manage the code structure. The Rest APIs interact with Twitter, Maven, and Spring as dependency managers, JUnit and Mockito for testing, and Docker for the deployment.",
+        "JDBC App: Implemented CRUD and DML operations and tested on generated SQL sales data. Built using the Data Access Object (DAO) pattern. Made in Java with the Maven project management tool.",
+        "Grep App: Deployed a Java application using docker that simulates the Unix grep implementation that searches all files recursively from a given directory argument and outputs a file containing all the lines that match the given regex pattern argument. The application utilizes Java 8 streams for memory efficiency and is managed using Maven."
+      ],
+      "git_url": "/core_java",
+      "name": "Core Java Apps"
+    }
+  ],
+  "name": "Abhinay Guvvala",
+  "others": [
+    {
+      "bullets": [
+        "Volunteer, Peer Tutor @ Fanshawe College (2020-2021): Provided support in project works and taught software testing concepts to the students"
+      ],
+      "title": "Volunteering"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Implemented multiple projects in a scrum environment following the Software Development Life Cycle using the agile methodology. Exposure includes a variety of technologies such as Linux, Java, SQL, Docker, Git, and GCP.",
+      "duration": "2021-present",
+      "title": "Data Engineer"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "Python",
+      "Docker",
+      "Maven",
+      "JUnit/Mockito",
+      "HTML/CSS"
+    ],
+    "familiar": [
+      "Cloud Platforms - GCP",
+      "REST API",
+      "IntelliJ",
+      "Selenium",
+      "Bootstrap"
+    ],
+    "proficient": [
+      "Java",
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Git"
+    ]
+  },
+  "summary": "I am a graduate who recently joined Jarvis as Software and Data Engineer. I am being given the opportunity to apply my knowledge and hone my skills with industry-standard tools such as Java, SQL, Bash, Docker, Git, and GCP. At Jarvis, I have worked as a team to develop efficient software solutions to complex real-world business problems following Agile/Scrum methodologies. I gained a great understanding and hands-on experience of the software development cycle. My broad educational background made me a quick learner and an analytical thinker. I spend my free time volunteering. While at Fanshawe, I tutor students better understand technical concepts. Being able to work in teams and making an impact in people’s lives makes me excited about software development."
+}
