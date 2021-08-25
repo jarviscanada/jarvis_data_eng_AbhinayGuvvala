@@ -22,7 +22,7 @@
     {
       "description": "Developed a SQL database application that monitors the temperature, humidity, and oxygen levels inside the car and identifies the anomaly, and preset the sensor from malfunctioning whenever necessary.",
       "git_url": null,
-      "name": "Auto-Guard "
+      "name": "Auto-Guard"
     }
   ],
   "jarvis_projects": [
