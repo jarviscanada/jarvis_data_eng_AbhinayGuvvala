@@ -20,14 +20,9 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AbhinayGuvvala",
   "highlighted_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
-      "name": "Web app for resturant"
-    },
-    {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "description": "Developed a SQL database application that monitors the temperature, humidity, and oxygen levels inside the car and identifies the anomaly, and preset the sensor from malfunctioning whenever necessary.",
       "git_url": null,
-      "name": "Machine Learning"
+      "name": "Auto-Guard "
     }
   ],
   "jarvis_projects": [
