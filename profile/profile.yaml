@@ -64,7 +64,7 @@ jarvis_projects:
 # Feel free to add more projects
 highlighted_projects:
     #project name
-  - name: "Auto-Guard "
+  - name: "Auto-Guard"
     #URL is optional
     git_url:
     # The project description must start with an action verb (https://bit.ly/3guO98u)
