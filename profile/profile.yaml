@@ -44,22 +44,6 @@ jarvis_projects:
       - "Twitter App: Developed a command-line interface that allows users to send, get, and delete tweets from Twitter with a developer account. It uses MVC(Model-View-Controller) design pattern to manage the code structure. The Rest APIs interact with Twitter, Maven, and Spring as dependency managers, JUnit and Mockito for testing, and Docker for the deployment."
       - "JDBC App: Implemented CRUD and DML operations and tested on generated SQL sales data. Built using the Data Access Object (DAO) pattern. Made in Java with the Maven project management tool."
       - "Grep App: Deployed a Java application using docker that simulates the Unix grep implementation that searches all files recursively from a given directory argument and outputs a file containing all the lines that match the given regex pattern argument. The application utilizes Java 8 streams for memory efficiency and is managed using Maven."
-  - name: "Springboot App"
-    git_url: "/springboot"
-    description: "Not started"
-  - name: "Python Data Analytics"
-    git_url: "/python_data_anlytics"
-    description: "Not started"
-  - name: "Hadoop"
-    git_url: "/hadoop"
-    description: "Not started"
-  - name: "Spark"
-    git_url: "/spark"
-    description: "Not started"
-  - name: "Cloud/DevOps"
-    git_url: "/cloud_devops"
-    description: "Not started"
-
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
