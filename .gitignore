@@ -1,0 +1,12 @@
+.idea/
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+*.iml
+.eclipse
+test/
+.DS_Store
+intellij-java-google-style.xml
