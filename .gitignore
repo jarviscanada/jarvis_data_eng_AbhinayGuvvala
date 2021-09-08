@@ -8,3 +8,5 @@ target/
 *.iml
 .eclipse
 test/
+.DS_Store
+intellij-java-google-style.xml
