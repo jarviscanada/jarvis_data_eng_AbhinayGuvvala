@@ -60,7 +60,7 @@ function render_pdf() {
   left_right_margin=1.5cm
   font_size=8
 
-  docker run --rm --volume "$(pwd):/data" --user $(id -u):$(id -g) pandoc/latex:2.9.2.1 \
+  docker run --rm --volume "$(pwd):/data" --user $(id -u):$(id -g) pandoc/latex:2.14.1 \
     ${template_profile} -f markdown -t pdf -s \
     --pdf-engine=xelatex -V pagestyle=empty -V fontsize=${font_size}pt -V geometry:"top=${top_bot_margin}, bottom=${top_bot_margin}, left=${left_right_margin}, right=${left_right_margin}" -o ${output_profile_pdf}
   check_status $?

@@ -39,6 +39,11 @@
       ],
       "git_url": "/core_java",
       "name": "Core Java Apps"
+    },
+    {
+      "description": "Deployed a Hadoop cluster using Google Cloud Platform and explored the main components of Hadoop, including HDFS, YARN and Hive. Using Hive and Zeppelin notebook extracted and transformed the 2016 world development index data. Performed an analysis of the data using Hive query language and compared the performance of different optimizations, including hive partitions and the columnar data format(Parquet).",
+      "git_url": "/hadoop",
+      "name": "Hadoop"
     }
   ],
   "name": "Abhinay Guvvala",
